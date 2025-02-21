@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTA DE MATRIMONIO</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #00FF0000;
+            font-family: Arial, sans-serif;
+        }
+        #pdf-viewer {
+            display: block;  
+        }
+        #image-viewer {
+            display: none;  
+        }
+    </style>
+</head>
+<body>
+
+    <div id="pdf-viewer">
+        <iframe src="mi-archivo.pdf" width="100%" height="380"></iframe>
+    </div>
+
+    <div id="image-viewer">
+        <img src="mi-imagen.jpg" alt="Imagen" width="100%">
+    </div>
+
+    <script>
+        // No es necesario el código de detección de móvil si solo quieres mostrar el PDF
+        // Solo asegúrate de que el PDF siempre se muestre en cualquier dispositivo
+    </script>
+
+</body>
+</html>
